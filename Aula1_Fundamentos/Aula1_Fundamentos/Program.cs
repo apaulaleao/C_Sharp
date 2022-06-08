@@ -71,6 +71,40 @@ namespace Program
 
 
 
+            /* 4) Elabore um programa que exibe uma mensagem que incentive outras mulheres a entrar na tecnologia */
+
+            Console.WriteLine();
+            Console.WriteLine(" Exiba uma mensagem de incentivo para mulheres entrarem na área de Tecnologia. \n\n");
+            Console.ReadLine();
+
+            string meu_nome="";
+
+            Console.WriteLine("Digite seu nome?");
+            meu_nome=Console.ReadLine();
+
+            Console.WriteLine($"Olá,{meu_nome} Seja muito bem vinda!");
+            Console.WriteLine($"Este é o biscoito da sorte,{meu_nome}.Quebre-o  e encontre uma mensagem especial para você! ");
+            Console.ReadLine();
+
+            Console.WriteLine("Digite 1 para: Estou com sorte ou Digite 2 para : Estou com MUITA sorte!");
+            
+            int res = int.Parse(Console.ReadLine());
+
+            if(res ==1 )
+            {
+                Console.WriteLine("Você é uma mulher inteligente e não perca a oportunidade que o mundo está te oferecendo!");
+
+            }
+            else
+            {
+                Console.WriteLine("Você é uma mulher IN CRI VEL e não pensou 2x em arriscar tudo para voar. A Programação vai mudar sua história!!");
+            }
+
+            Console.ReadLine();
+
+
+
+
         }
     }
 }
