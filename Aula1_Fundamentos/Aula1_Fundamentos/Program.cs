@@ -38,12 +38,38 @@ namespace Program
             Console.WriteLine("Agora, falaremos de uma mulher muito famosa na área de tecnologia. Vamos lá conhecer ?\n\n");
 
             string adalo = "Ada Lovelace";
-            string formation = " matemática e escritora inglesa.";
-            string contribuition = " primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage. Durante o período em que esteve envolvida com o projeto de Babbage, ela desenvolveu os algoritmos que permitiriam à máquina computar os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica. Por esse trabalho é considerada a primeira programadora de toda a história.";
+            string formation = " Matemática e escritora inglesa.";
+            string contribuition = " Primeiro algoritmo para ser processado por uma máquina, a máquina analítica de Charles Babbage. Durante o período em que esteve envolvida com o projeto de Babbage, ela desenvolveu os algoritmos que permitiriam à máquina computar os valores de funções matemáticas, além de publicar uma coleção de notas sobre a máquina analítica. Por esse trabalho é considerada a primeira programadora de toda a história.";
 
             Console.WriteLine($"Seu nome é {adalo}.\n\n Ela foi uma {formation} de mundo destaque mundial.\n\n Hoje, ela é reconhecida por ter " +
-                $"escrito o {contribuition}.\n\n Viva {adalo} !!!");
+                $"escrito o {contribuition}.\n\nViva {adalo} !!! \n\n\n ");
             Console.ReadLine();
+
+
+
+
+
+            /*  3)  Elabore um programa que mostre na tela uma letra de musica que voce gosta, o compositor  
+                 e o genero musical.*/
+
+            Console.WriteLine();
+            Console.WriteLine("Mostre na tela uma musica que voce gosta, o compositor e o genero musical \n\n" );
+
+            string song = "Con te Partiró";
+            string single = "Andrea Bocceli";
+            string musical_genre = "Música Clássica";
+            string music = "Quando sono solo Sogno all'orizzonte E mancan le parole Si lo so che non c'è luce " +
+                " In una stanza quando manca il sole Se non ci sei tu con me, con me Su le finestre Mostra a tutti il mio cuore" +
+                "Che hai acceso Chiudi dentro me La luce che Hai incontrato per strada Con te partirò Paesi che non ho mai " +
+                 "con te Adesso si li vivrò Con te partirò Su navi per mari Che io lo so No no non esistono più Con te io li vivrò" +
+                 "Quando sei lontana Sogna all'orizzonte E mancan le parole E io si lo so Che sei con me, con me";
+
+
+            Console.WriteLine($"Nome da música : {song} \n\nNome do artista : {single} \n\nGênero musical : {musical_genre} \n\nLetra da sua musica favorita: {music}.\n\n");
+            Console.ReadLine();
+
+
+
 
         }
     }
