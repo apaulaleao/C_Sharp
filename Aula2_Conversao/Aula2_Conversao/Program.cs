@@ -88,6 +88,30 @@ namespace Program
             Console.WriteLine($"Quantidade de horas trabalhadas: {horas_trabalhadas}\nSeu salário  recebido: R$ {(horas_trabalhadas * valor_hora).ToString("F2", CultureInfo.InvariantCulture)}");
             Console.ReadLine();
 
+
+
+
+            //Exercicio 4 
+
+            Console.WriteLine(" Leia um valor inteiro que correspondente a idade de uma pessoa e mostre-a em anos, meses, dias e horas");
+            Console.ReadLine();
+
+
+            string nomes = "";
+            int age= int.Parse(Console.ReadLine());
+
+            int month = 12 * age;
+
+            int days = month * 30;
+
+            int hours = days * 60;
+
+            Console.Write($"\n{nomes},informe a sua idade, por favor: ");
+
+
+            Console.WriteLine($" Olá {nomes}, sua idade é {age} anos.\n Representando {age * 12} meses ou\n {age * 365} dias de idade ou\n {hours} horas de idade! ");
+
+            Console.ReadLine();
         }
 
 
