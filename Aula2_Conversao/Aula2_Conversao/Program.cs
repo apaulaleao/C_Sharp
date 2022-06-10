@@ -65,7 +65,7 @@ namespace Program
 
 
              soma = (a + b + c + d + e + f + g + h + i + j);
-             //soma=Convert.ToInt16(Console.ReadLine());
+             soma=Convert.ToInt16(Console.ReadLine());
              Console.WriteLine($"A soma dos números é {soma}. =)");
             Console.ReadLine();
          
@@ -87,17 +87,19 @@ namespace Program
 
             Console.WriteLine($"Quantidade de horas trabalhadas: {horas_trabalhadas}\nSeu salário  recebido: R$ {(horas_trabalhadas * valor_hora).ToString("F2", CultureInfo.InvariantCulture)}");
             Console.ReadLine();
-
+           
 
 
 
             //Exercicio 4 
 
-            Console.WriteLine(" Leia um valor inteiro que correspondente a idade de uma pessoa e mostre-a em anos, meses, dias e horas");
-            Console.ReadLine();
+           Console.WriteLine(" Leia um valor inteiro que correspondente a idade de uma pessoa e mostre-a em anos, meses, dias e horas");
+            
+            Console.WriteLine("Digite seu nome, por favor");
+            string nomes = Console.ReadLine();
 
-
-            string nomes = "";
+            Console.WriteLine("Digite sua idade\n");
+            
             int age= int.Parse(Console.ReadLine());
 
             int month = 12 * age;
@@ -106,18 +108,42 @@ namespace Program
 
             int hours = days * 60;
 
-            Console.Write($"\n{nomes},informe a sua idade, por favor: ");
 
 
-            Console.WriteLine($" Olá {nomes}, sua idade é {age} anos.\n Representando {age * 12} meses ou\n {age * 365} dias de idade ou\n {hours} horas de idade! ");
+            Console.WriteLine($" Olá {nomes} sua idade é {age} anos.\n Representando {age * 12} meses ou\n {age * 365} dias de idade ou\n {hours} horas de idade! ");
+
+            Console.ReadLine(); 
+            
+
+            //Exercicio 5  - Construa um conversor de moedas//
+
+            Console.WriteLine("--- Construa um conversor de moedas ---");
+            Console.ReadLine();
+
+            Console.WriteLine(" Crie um programa que solicite um valor em real ao usuário e converta esse valor para: \n\n " +
+                "dolar,\n\n euro,\n\n libra esterlina,\n\n dolar canadense,\n\n peso argentino,\n\n peso chileno.\n\n");
+
 
             Console.ReadLine();
+
+            float real;
+            float dolar = 5.49f;
+            float euro = 6.00f;
+            float libra_esterlina = 2.50f;
+            float dolar_canadense= 2.0f;
+            float peso_argentino=2.0f;
+            float peso_chileno = 2.0f;
+
+            Console.WriteLine(" Digite um valor em R$ para conversão:\n\n");
+               real = float.Parse(Console.ReadLine());
+
+            float x = real / dolar;
+            Console.WriteLine($"O valor em dolar é {x.ToString("F2")}");
+            Console.ReadLine();            
+
         }
 
 
     }
     
 }
-
-
-
