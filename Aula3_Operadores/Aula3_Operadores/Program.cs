@@ -20,7 +20,7 @@ n1 = money / 100;
 Console.ReadLine(n1);
 */
 
-//2.) 2. Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “x é o maior”.
+/*2.) 2. Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “x é o maior”.
 
 Console.WriteLine("Digite 03 valores e vou te apresentar o de maior dos 3 valores e exibir a mensagem 'x é o maior.'Vamos tentar?\n\n");
 
@@ -45,11 +45,12 @@ else
     Console.WriteLine($" O {number3} é o maior!");
 
 Console.ReadLine();
+*/
 
 /*3.Leia 3 valores que são as três notas de um aluno.
 A seguir, calcule a média do aluno. Considere que cada nota pode ir de 0 até 10.0,
 sempre com uma casa decimal. Imprima se o aluno foi aprovado ou reprovado considerando a média 7.*/
-/*
+
 string name;
 float nota1;
 float nota2;
@@ -85,5 +86,5 @@ if (nota1 > 10 || nota2 > 10 || nota3 > 10 || nota1 < 0 || nota2 < 0 || nota3 < 
     else
         Console.WriteLine($" {name}, Infelizmente você foi REPROVADO(A) com nota {media.ToString("F1")}");
 
-*/
+
 Console.ReadLine();
