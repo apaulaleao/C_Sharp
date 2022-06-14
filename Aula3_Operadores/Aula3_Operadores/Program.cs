@@ -51,7 +51,7 @@ Console.ReadLine();
 A seguir, calcule a média do aluno. Considere que cada nota pode ir de 0 até 10.0,
 sempre com uma casa decimal. Imprima se o aluno foi aprovado ou reprovado considerando a média 7.*/
 
-string name;
+/*string name;
 float nota1;
 float nota2;
 float nota3;
@@ -87,4 +87,55 @@ if (nota1 > 10 || nota2 > 10 || nota3 > 10 || nota1 < 0 || nota2 < 0 || nota3 < 
         Console.WriteLine($" {name}, Infelizmente você foi REPROVADO(A) com nota {media.ToString("F1")}");
 
 
+Console.ReadLine();
+*/
+
+
+/*4 - Leia 3 valores que são as três notas de um aluno. A seguir, calcule a média do aluno.
+Se a nota for menor que 6.0, deve exibir a nota F.
+Se a nota for de 6.0 até 7.0, deve exibir a nota D.
+Se a nota for entre 7.0 e 8.0, deve exibir a nota C.
+Se a nota for entre 8.0 e 9.0, deve exibir a nota B.
+Se a nota fot entre 9.0 e 10.0, deve exibir um belo de um A
+*/
+Console.WriteLine("Leia 03 valores que são as 03 notas de um aluno. Calcule a média.\n ");
+
+float nota1;
+float nota2;
+float nota3;
+
+
+Console.WriteLine(" Digite sua 1ª nota\n");
+nota1 = float.Parse (Console.ReadLine());
+
+Console.WriteLine(" Digite sua 2ª nota\n");
+nota2 = float.Parse (Console.ReadLine());
+
+Console.WriteLine(" Digite sua 3ª nota\n");
+nota3 = float.Parse (Console.ReadLine());
+
+float media = (nota1+nota2 + nota3)/3;
+
+//Console.WriteLine($"Sua média é {media}");
+
+if (media >= 9.01 && media <= 10.0)
+{
+    Console.WriteLine($" Sua média é {media}. Você tirou A. Excelente! Você tá fera!");
+}
+else if (media >= 8.01 && media <= 9.0)
+{
+    Console.WriteLine($" Sua média é {media}. Você tirou B. Parabéns");
+}
+else if (media >= 7.01 && media <= 8.00)
+    {
+    Console.WriteLine($" Sua média é {media}. Você tirou C. Vamos melhorar");
+    }
+else if (media >= 6.01 && media <= 7.00)
+{
+    Console.WriteLine($" Sua média é {media}. Você tirou D. Nada satisfeita com você!");
+}
+else if (media <=6.0)
+{
+    Console.WriteLine($" Sua média é {media}. Você tirou F. Você tá péssimo!");
+}
 Console.ReadLine();
