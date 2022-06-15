@@ -17,8 +17,11 @@ Console.WriteLine("Insira um valor");
 money = float.Parse(Console.ReadLine());
 
 n1 = money / 100;
-Console.ReadLine(n1);
-*/
+float teste = money % 100;
+Console.WriteLine(teste);
+Console.WriteLine((int)n1);
+Console.ReadLine();
+
 
 /*2.) 2. Faça um programa que leia três valores e apresente o maior dos três valores lidos seguido da mensagem “x é o maior”.
 
@@ -97,7 +100,7 @@ Se a nota for de 6.0 até 7.0, deve exibir a nota D.
 Se a nota for entre 7.0 e 8.0, deve exibir a nota C.
 Se a nota for entre 8.0 e 9.0, deve exibir a nota B.
 Se a nota fot entre 9.0 e 10.0, deve exibir um belo de um A
-*/
+
 Console.WriteLine("Leia 03 valores que são as 03 notas de um aluno. Calcule a média.\n ");
 
 float nota1;
@@ -120,7 +123,7 @@ float media = (nota1+nota2 + nota3)/3;
 
 if (media >= 9.01 && media <= 10.0)
 {
-    Console.WriteLine($" Sua média é {media}. Você tirou A. Excelente! Você tá fera!");
+    Console.WriteLine($" Sua média é {media}. Você tirou A. Excelente! Você tá fera! ");
 }
 else if (media >= 8.01 && media <= 9.0)
 {
@@ -139,3 +142,51 @@ else if (media <=6.0)
     Console.WriteLine($" Sua média é {media}. Você tirou F. Você tá péssimo!");
 }
 Console.ReadLine();
+*/
+
+
+// 5 - A Blue resolveu dar um aumento de salários a seus funcionários de acordo com os dados abaixo:
+//Salário de 0 até 400.00 ganha 15% Salário de 400.01 até 800.00 ganha 12% Salário de 800.01 até 1200.00 ganha 10% Salário de 1200.01 até 2000.00 ganha 7% Acima de 2000.00 ganha 4%
+
+
+float salario;
+string nome = "";
+int matricula;
+
+Console.WriteLine("Teremos um aumento de salário e vamos ver quanto você vai ganhar.\n");
+
+Console.Write(" Digite sua matricula:");
+matricula = int.Parse(Console.ReadLine());
+
+Console.Write(" Digite seu nome:");
+nome= Console.ReadLine();
+
+Console.Write(" Digite seu salario:");
+salario = float.Parse (Console.ReadLine());
+
+if (salario >= 0 && salario <= 400.00)
+{
+    Console.WriteLine($"{nome} - Matricula nº:{matricula} - Seu salário era de R$ {salario.ToString("F2")}, e terá um reajuste de 15% somando R${(salario*0.15).ToString("F2")} ficando" +
+        $" em R$ {(salario * 1.15).ToString("F2")}.");
+}
+else if (salario >= 401.00 && salario <= 800.00)
+{
+    Console.WriteLine($"{nome} - Matricula nº:{matricula} - Seu salário era de R$ {salario.ToString("F2")}, e terá um reajuste de 12% somando R$ {(salario * 0.12).ToString("F2")} ficando" +
+        $" em {(salario * 1.12).ToString("F2")}");
+}
+else if (salario >= 801.00 && salario <= 1200.00)
+{
+    Console.WriteLine($"{nome} - Matricula nº:{matricula} - Seu salário era de R$ {salario.ToString("F2")}, e terá um reajuste de 10% somando R$ {(salario * 0.10).ToString("F2")} ficando" +
+        $" em {(salario * 1.10).ToString("F2")}");
+}
+else if (salario >= 1200.00 && salario <= 2000.00)
+{
+    Console.WriteLine($"{nome} - Matricula nº:{matricula} - Seu salário era de R$ {salario.ToString("F2")}, e terá um reajuste de 7% somando R$ {(salario * 0.07).ToString("F2")} ficando" +
+        $" em {(salario * 1.07).ToString("F2")}");
+}
+else if (salario >= 2000.00)
+
+    Console.WriteLine($"{nome} - Matricula nº:{matricula} - Seu salário era de R$ {salario.ToString("F2")}, e terá um reajuste de 4% somando R$ {(salario * 0.04).ToString("F2")} ficando" +
+        $" em {(salario * 1.04).ToString("F2")}");
+
+Console.ReadLine ();    
