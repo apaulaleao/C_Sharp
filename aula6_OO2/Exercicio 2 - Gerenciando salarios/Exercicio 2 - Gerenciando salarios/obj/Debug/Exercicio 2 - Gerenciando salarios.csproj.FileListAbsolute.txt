@@ -1,0 +1,8 @@
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\bin\Debug\Exercicio 2 - Gerenciando salarios.exe.config
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\bin\Debug\Exercicio 2 - Gerenciando salarios.exe
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\bin\Debug\Exercicio 2 - Gerenciando salarios.pdb
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\obj\Debug\Exercicio 2 - Gerenciando salarios.csproj.AssemblyReference.cache
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\obj\Debug\Exercicio 2 - Gerenciando salarios.csproj.SuggestedBindingRedirects.cache
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\obj\Debug\Exercicio 2 - Gerenciando salarios.csproj.CoreCompileInputs.cache
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\obj\Debug\Exercicio 2 - Gerenciando salarios.exe
+D:\Modulo C#\aula6_OO2\Exercicio 2 - Gerenciando salarios\Exercicio 2 - Gerenciando salarios\obj\Debug\Exercicio 2 - Gerenciando salarios.pdb
